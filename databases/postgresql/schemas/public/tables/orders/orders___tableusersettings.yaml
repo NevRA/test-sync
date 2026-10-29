@@ -1,0 +1,8 @@
+collection_id: librarylibrarydatadat
+is_published: true
+table_id:
+- PostgreSQL
+- public
+- orders
+serdes/meta:
+- model: TableUserSettings
