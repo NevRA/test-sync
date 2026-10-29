@@ -1,0 +1,37 @@
+name: Customers
+entity_id: z-Msj1ntHgWXxIc1fdBep
+creator_id: roman@metabase.com
+display: table
+collection_id: MSirtE-B0DvfPCjGUt2AX
+parameters: []
+parameter_mappings: []
+dataset_query:
+  database: PostgreSQL
+  stages:
+  - breakout:
+    - - field
+      - {}
+      - - PostgreSQL
+        - public
+        - orders
+        - customer_name
+    order-by:
+    - - asc
+      - {}
+      - - field
+        - {}
+        - - PostgreSQL
+          - public
+          - orders
+          - customer_name
+    source-table:
+    - PostgreSQL
+    - public
+    - orders
+    lib/type: mbql.stage/mbql
+  lib/type: mbql/query
+visualization_settings: {}
+card_schema: 24
+serdes/meta:
+- model: Card
+type: question

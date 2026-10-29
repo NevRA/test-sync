@@ -1,0 +1,21 @@
+name: Order rows
+entity_id: 1q_s53qIytHJGTJjf8FSF
+creator_id: roman@metabase.com
+display: table
+collection_id: MSirtE-B0DvfPCjGUt2AX
+parameters: []
+parameter_mappings: []
+dataset_query:
+  database: PostgreSQL
+  stages:
+  - source-table:
+    - PostgreSQL
+    - public
+    - orders
+    lib/type: mbql.stage/mbql
+  lib/type: mbql/query
+visualization_settings: {}
+card_schema: 24
+serdes/meta:
+- model: Card
+type: question

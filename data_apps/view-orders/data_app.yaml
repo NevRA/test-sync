@@ -1,0 +1,9 @@
+collection: MSirtE-B0DvfPCjGUt2AX
+description: Browse and explore orders.
+entity_id: 9ajm-dFg94lg-9qT_Thp_
+name: View orders
+path: dist/index.js
+slug: view-orders
+version: 1
+serdes/meta:
+- model: DataApp
